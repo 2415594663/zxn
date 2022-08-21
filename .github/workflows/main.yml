@@ -23,7 +23,6 @@ jobs:
     - run: pip install -r ./requirements.txt && python ./main.py
 
     env:
-      DATA: ${{ secrets.DATA }}
       APP_ID: ${{ secrets.APP_ID }}
       APP_SECRET: ${{ secrets.APP_SECRET }}
       TEMPLATE_ID: ${{ secrets.TEMPLATE_ID1 }}
